@@ -236,7 +236,9 @@ header {
   background-color: #d9d9d9;
   border-radius: 100%;
   position: absolute;
-  margin-top: 170px;
+  margin-top: -225px;
+  width: 400px;
+  height: 400px;
 }
 
 .circles__img {
@@ -310,8 +312,12 @@ header {
 
   .img-header {
     width: 70px;
+    margin-left: 15px;
   }
-
+  .kwt-group-header-img{
+    width: 215px;
+    height: 450px;
+  }
   .header-nav-list-second__paragraph {
     width: 390px;
   }
@@ -340,8 +346,9 @@ header {
 
   .explain-text-div__paragraph {
     font-size: 15px;
-    width: 300px;
-    margin-left: 240px;
+    width: 279px;
+    margin-left: 100px;
+    z-index: 10;
   }
 
   .explain-text-div {
@@ -349,7 +356,11 @@ header {
   }
 
   .explain-text-div__img {
-    display: none;
+    width: 600px;
+    height: 479px;
+    margin-left: -160px;
+    z-index: 0;
+    margin-top: -55px;
   }
 
   .explain-list__item {
@@ -370,26 +381,27 @@ header {
   }
 
   .explain-list {
-    margin-left: 193px;
+    margin-left: 300px;
     bottom: 580px;
     position: relative;
   }
 
   .duginets-pendulum {
-    height: 429px;
-    background-size: 768px;
+    height: 570px;
+    background-size: 1024px;
   }
 
   .duginets-pendulum-paragraph {
     font-size: 20px;
     margin-left: 0;
     width: 407px;
-    padding-top: 72px;
+    padding-top: 116px;
+    margin-left: 55px;
   }
 
   .video-section {
-    background-size: 768px;
-    height: 577px;
+    background-size: 1024px;
+    height: 768px;
   }
 
   .video-btn {
@@ -397,18 +409,21 @@ header {
     font-size: 20px;
     padding: 40px 25px;
     border-radius: 30px;
-    margin-left: 220px;
+    margin-left: 270px;
   }
 
-  .circles__yellow-circle,
-  .circles__gray-circle {
+  .circles__yellow-circle{
     width: 300px;
     height: 300px;
   }
+  .circles__gray-circle{
+     width: 300px;
+    height: 300px;
+    margin-top: -175px;
+  }
 
   .circles {
-    /* gap: 48px;
-    padding-top: 270px; */
+    gap: 48px;
   }
 
   /* .circles__gray-circle {
@@ -439,6 +454,10 @@ header {
   .footer-section {
     margin-top: 65px;
   }
+  .img-footer{
+    width: 100px;
+    margin-left: 15px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -454,10 +473,12 @@ header {
 
   .header-div {
     padding-top: 20px;
+    padding-right: 15px;
   }
 
   .img-header {
     width: 60px;
+    margin-left: 15px;
   }
 
   .header-nav-list-second__item {
@@ -558,13 +579,13 @@ header {
     padding: 17px 10px;
     border-radius: 15px;
     width: 123px;
-    margin-left: 145px;
+    margin-left: 160px;
   }
 
   .circles {
     display: block;
     padding-top: 20px;
-    margin-left: 100px;
+    margin-left: 105px;
   }
 
   .circles__gray-circle,
@@ -572,6 +593,7 @@ header {
     position: static;
     height: 200px;
     width: 200px;
+    margin-top: 25px;
   }
 
   .circles__paragraph {
