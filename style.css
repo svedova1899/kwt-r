@@ -235,10 +235,8 @@ header {
 .circles__gray-circle {
   background-color: #d9d9d9;
   border-radius: 100%;
-  width: 400px;
-  height: 400px;
   position: absolute;
-  bottom: -4648px;
+  margin-top: 170px;
 }
 
 .circles__img {
@@ -300,55 +298,13 @@ header {
   font-weight: 400;
   color: #000000;
   padding-top: 22px;
-  margin-left: 105px;
+  margin-left: 89px;
 }
 
-@media (max-width: 992px) {
-  .circles {
-    display: block;
-    padding-top: 50px;
-    margin-left: 250px;
-  }
-
-  .circles__gray-circle {
-    position: static;
-  }
-
-  .explain-text-div__img {
-    width: 570px;
-    padding-top: 70px;
-  }
-
-  .description-section__img {
-    width: 600px;
-  }
-
-  .duginets-pendulum {
-    background-size: 993px;
-    height: 559px;
-  }
-
-  .duginets-pendulum-paragraph {
-    font-size: 25px;
-    width: 500px;
-    padding-top: 105px;
-  }
-
-  .video-section {
-    background-size: 993px;
-    height: 747px;
-  }
-
-  .video-btn {
-    margin-left: 300px;
-  }
-
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .container {
     width: 100%;
-    max-width: 730px;
+    max-width: 1024px;
     margin: 0 auto;
   }
 
@@ -381,10 +337,6 @@ header {
     margin-left: 15px;
   }
 
-  /* .kwt-group-header-img {
-    width: 215px;
-    height: 450px;
-  } */
 
   .explain-text-div__paragraph {
     font-size: 15px;
@@ -489,10 +441,10 @@ header {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
   .container {
     width: 100%;
-    max-width: 435px;
+    max-width: 767px;
     margin: 0 auto;
   }
 
@@ -541,6 +493,8 @@ header {
 
   .description-list__paragraph-help {
     width: 144px;
+    padding-top: 3px;
+    padding-left: 3px;
   }
 
   .explain-text-div {
@@ -550,7 +504,7 @@ header {
   .explain-text-div__paragraph {
     font-size: 12px;
     width: 240px;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .explain-text-div__img {
@@ -590,7 +544,8 @@ header {
   .duginets-pendulum-paragraph {
     font-size: 12px;
     width: 252px;
-    padding-top: 50px;
+    padding-top: 46px;
+    padding-left: 15px;
   }
 
   .video-section {
@@ -603,13 +558,13 @@ header {
     padding: 17px 10px;
     border-radius: 15px;
     width: 123px;
-    margin-left: 155px;
+    margin-left: 145px;
   }
 
   .circles {
     display: block;
     padding-top: 20px;
-    margin-left: 120px;
+    margin-left: 100px;
   }
 
   .circles__gray-circle,
@@ -643,6 +598,7 @@ header {
 
   .img-footer {
     width: 60px;
+    margin-left: 14px;
   }
 
   .footer-list__paragraph {
@@ -652,39 +608,42 @@ header {
 
   .footer-list__paragraph-second {
     font-size: 10px;
+    margin-right: 16px;
   }
 
   .footer-div {
     padding-top: 10px;
   }
 }
-
-@media (max-width: 375px) {
-  .img-header {
-    margin-left: 10px;
+/* @media(max-width: 374px){
+  .container {
+    width: 100%;
+    max-width: 374px;
+    margin: 0 auto;
   }
-
-  .header-nav-list {
-    margin-right: 10px;
-  }
-
-  .explain-text-div__paragraph {
-    margin-left: 10px;
-  }
-
-  .explain-list {
-    margin-left: 70px;
-  }
-
-  .duginets-pendulum-paragraph {
-    margin-left: 10px;
-  }
-
-  .video-btn {
-    margin-left: 125px;
-  }
-
   .circles {
-    padding-left: 88px;
+    display: block;
+    padding-top: 20px;
+    margin-left: 120px;
   }
-}
+
+  .circles__gray-circle,
+  .circles__yellow-circle {
+    position: static;
+    height: 200px;
+    width: 200px;
+  }
+
+  .circles__paragraph {
+    font-size: 15px;
+    width: 185px;
+    padding-left: 20px;
+    padding-top: 8px;
+  }
+
+  .circles__img {
+    width: 40px;
+    margin-left: 79px;
+    padding-top: 20px;
+  }
+} */
