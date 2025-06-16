@@ -184,7 +184,7 @@ header {
 }
 
 .duginets-pendulum {
-  background-image: url("/src/img/png/orange-bg.png");
+  background-image: url("src/img/png/orange-bg.png");
   background-repeat: no-repeat;
   height: 937px;
 }
@@ -199,7 +199,7 @@ header {
 }
 
 .video-section {
-  background-image: url("/src/img/png/photo-duginets-pendulum.png");
+  background-image: url("src/img/png/photo-duginets-pendulum.png");
   background-repeat: no-repeat;
   height: 1200px;
   display: flex;
