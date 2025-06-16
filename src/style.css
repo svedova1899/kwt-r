@@ -1,8 +1,8 @@
 * {
   box-sizing: border-box;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 ul {
@@ -23,13 +23,14 @@ body {
 }
 
 .container {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   margin: 0 auto;
   outline: solid 2px red;
 }
 
 header {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   width: 100%;
   height: 130px;
 }
@@ -81,10 +82,10 @@ header {
 }
 
 .description-section {
-    display: flex;
-    position: relative;
+  display: flex;
+  position: relative;
   margin-top: 5px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   background-repeat: no-repeat;
 }
 .description-section__img {
@@ -93,7 +94,7 @@ header {
   z-index: 0;
 }
 .description-section__div {
-    display: flex;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -109,21 +110,21 @@ header {
   font-weight: 500;
 }
 .description-list__paragraph {
-    font-size: 25px;
+  font-size: 25px;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
   padding-top: 25px;
 }
 .description-list__paragraph-help {
-    font-size: 25px;
+  font-size: 25px;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
   padding-top: 6px;
 }
 
 .explain-text-div {
-    padding-top: 80px;
-    display: flex;
+  padding-top: 80px;
+  display: flex;
   margin-bottom: 90px;
 }
 .explain-text-div__paragraph {
@@ -133,23 +134,32 @@ header {
 }
 .explain-text-div__img {
   padding-top: 90px;
-  position: relative;
+  /* position: relative; */
 }
 
 .explain-list {
-  position: absolute;
-  bottom: -1800px;
+      bottom: 560px;
+        position: relative;
+}
+.exlanation-section__img{
+  padding-top: -10px;
 }
 .explain-list__item {
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1490px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
   height: 240px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   margin-top: 50px;
   border-radius: 35px;
 }
+.ul-explain-div{
+  height: 400px;
+}
+
 .explain-list__number {
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
@@ -157,7 +167,7 @@ header {
   margin-left: 35px;
 }
 .explain-list__paragraph {
-    font-size: 30px;
+  font-size: 30px;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
   width: 1275px;
@@ -168,11 +178,10 @@ header {
   background-image: url("/src/img/png/orange-bg.png");
   background-repeat: no-repeat;
   height: 937px;
-  margin-top: 365px;
 }
 
 .duginets-pendulum-paragraph {
-    font-size: 30px;
+  font-size: 30px;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
   width: 650px;
@@ -189,7 +198,7 @@ header {
 }
 
 .video-btn {
-    background-color: #FFC600;
+  background-color: #ffc600;
   padding: 70px 35px;
   border: none;
   border-radius: 40px;
@@ -207,26 +216,26 @@ header {
   gap: 140px;
 }
 .circles__yellow-circle {
-  background-color: #FFC600;
+  background-color: #ffc600;
   border-radius: 100%;
   width: 400px;
   height: 400px;
 }
 .circles__gray-circle {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   border-radius: 100%;
   width: 400px;
   height: 400px;
   position: absolute;
-  bottom: -4595px;
+  bottom: -4648px;
 }
 .circles__img {
-    width: 70px;
+  width: 70px;
   margin-left: 165px;
   padding-top: 50px;
 }
 .circles__paragraph {
-    font-size: 25px;
+  font-size: 25px;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
   padding-top: 30px;
@@ -235,7 +244,7 @@ header {
 }
 
 .how-to-make-money-section-div {
-    display: flex;
+  display: flex;
   justify-content: center;
   padding-top: 155px;
 }
@@ -248,7 +257,7 @@ header {
 }
 
 .footer-section {
-    background-color: #ADADAD;
+  background-color: #adadad;
   height: 210px;
   margin-top: 175px;
 }
@@ -261,7 +270,7 @@ header {
 }
 
 .img-footer {
-    width: 100px;
+  width: 100px;
 }
 
 .footer-list__paragraph {
@@ -278,12 +287,48 @@ header {
   padding-top: 22px;
   margin-left: 105px;
 }
+@media (max-width: 992px) {
+   .circles {
+    display: block;
+    padding-top: 50px;
+    margin-left: 250px;
+  }
+  .circles__gray-circle{
+    position: static;
+  }
+ .explain-text-div__img{
+  width: 570px;
+  padding-top: 70px;
+ }
+ .description-section__img{
+  width: 600px;
+ }
+ .duginets-pendulum{
+  background-size: 993px;
+  height: 559px;
+ }
+ .duginets-pendulum-paragraph{
+  font-size: 25px;
+  width: 500px;
+  padding-top: 105px;
+ }
+ .video-section{
+  background-size: 993px;
+  height: 747px;
+ }
+ .video-btn{
+margin-left: 300px;
+ }
+
+}
 @media (max-width: 768px) {
-    .container{
-        width: 730px;
-    }
+  .container {
+    width: 100%;
+    max-width: 730px;
+    margin: 0 auto;
+  }
   .img-header {
-     width: 70px;
+    width: 70px;
   }
   .header-nav-list-second__paragraph {
     width: 390px;
@@ -293,110 +338,276 @@ header {
     width: 308px;
   }
 
-
-  .description-section__img{
+  .description-section__img {
     width: 450px;
   }
-  .description-list__title{
+  .description-list__title {
     font-size: 40px;
   }
-  .description-list__paragraph, .description-list__paragraph-help{
+  .description-list__paragraph,
+  .description-list__paragraph-help {
     font-size: 15px;
   }
-.description-list{
+  .description-list {
     margin-left: 15px;
-}
-.kwt-group-header-img{
+  }
+  .kwt-group-header-img {
     width: 215px;
     height: 450px;
-}
+  }
 
-.explain-text-div__paragraph {
- font-size: 15px;
-}
-.explain-text-div__img{
-    width: 533px;
-    padding-top: 20px;
-}
-.explain-list__item{
-    height: 290px;
+  .explain-text-div__paragraph {
+    font-size: 15px;
+    width: 300px;
+    margin-left: 240px;
+  }
+  .explain-text-div{
+    margin-bottom: 80px;
+  }
+  .explain-text-div__img {
+    display: none;
+  }
+  .explain-list__item {
+    height: 233px;
     display: block;
     background: none;
-}
-.explain-list__number{
+  }
+  .explain-list__number {
     font-size: 50px;
     margin-left: 160px;
-    margin-bottom: 34px;
-}
-.explain-list__paragraph{
+    margin-bottom: 15px;
+  }
+  .explain-list__paragraph {
     font-size: 20px;
-     /* margin-bottom: 34px; */
     width: 412px;
-}
-/* .exlanation-section__img{
-    width: 506px;
-} */
-.explain-list {
-    margin-left: 193px;
-    bottom: -1232px;
-}
+  }
 
-.duginets-pendulum{
- height: 429px;
- background-size: 768px;
-}
-.duginets-pendulum-paragraph{
+  .explain-list {
+    margin-left: 193px;
+    bottom: 580px;
+        position: relative;
+  }
+
+  .duginets-pendulum {
+    height: 429px;
+    background-size: 768px;
+  }
+  .duginets-pendulum-paragraph {
     font-size: 20px;
     margin-left: 0;
     width: 407px;
     padding-top: 72px;
-}
+  }
 
-
-.video-section{
+  .video-section {
     background-size: 768px;
     height: 577px;
-}
-.video-btn{
+  }
+  .video-btn {
     width: 305px;
     font-size: 20px;
     padding: 40px 25px;
     border-radius: 30px;
     margin-left: 220px;
-}
+  }
 
-
-.circles__yellow-circle, .circles__gray-circle{
+  .circles__yellow-circle,
+  .circles__gray-circle {
     width: 300px;
     height: 300px;
-}
-.circles{
-gap: 48px;
-padding-top: 270px;
-}
-.circles__gray-circle{
-bottom: -2655px;
-}
-.circles__paragraph{
+  }
+  .circles {
+    /* gap: 48px;
+    padding-top: 270px; */
+  }
+  /* .circles__gray-circle {
+    bottom: -2655px;
+  } */
+  .circles__paragraph {
     font-size: 20px;
     width: 275px;
     padding-left: 50px;
     padding-top: 30px;
-}
-.circles__img{
+  }
+  .circles__img {
     width: 50px;
     margin-left: 125px;
     padding-top: 30px;
-}
-.how-to-make-money-section-div{
+  }
+  .how-to-make-money-section-div {
     padding-top: 50px;
-}
-.how-to-make-money-section-div__paragraph{
+  }
+  .how-to-make-money-section-div__paragraph {
     font-size: 20px;
     width: 639px;
+  }
+
+  .footer-section {
+    margin-top: 65px;
+  }
 }
 
-.footer-section{
-    margin-top: 65px;
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    max-width: 435px;
+    margin: 0 auto;
+  }
+  header {
+    height: 115px;
+  }
+  .header-div{
+    padding-top: 20px;
+  }
+  .img-header{
+    width: 60px;
+  }
+  .header-nav-list-second__item {
+    display: none;
+  }
+  .nav-div {
+    gap: 0;
+  }
+  .description-section__img {
+    width: 240px;
+  }
+  .description-list__title {
+    font-size: 22px;
+  }
+  .description-list__paragraph,
+  .description-list__paragraph-help {
+    font-size: 12px;
+    padding-top: 13px;
+  }
+  .description-list {
+    padding-top: 25px;
+  }
+  .kwt-group-header-img {
+    width: 110px;
+    height: 225px;
+  }
+  .description-list__paragraph-help {
+    width: 144px;
+  }
+  .explain-text-div {
+    padding-top: 30px;
+  }
+  .explain-text-div__paragraph {
+    font-size: 12px;
+    width: 240px;
+    margin: 0;
+  }
+  .explain-text-div__img {
+    display: none;
+  }
+
+  .exlanation-section__img {
+    width: 170px;
+  }
+  .explain-list__number {
+    font-size: 32px;
+    margin-left: 100px;
+    margin-bottom: 14px;
+  }
+  .explain-list__paragraph {
+    font-size: 12px;
+    width: 240px;
+  }
+  .explain-list {
+    margin-left: 95px;
+    bottom:225px;
+  }
+  .explain-list__item {
+    height: 196px;
+    margin-top: 0;
+  }
+
+  .duginets-pendulum {
+    height: 270px;
+    background-size: 480px;
+  }
+  .duginets-pendulum-paragraph {
+    font-size: 12px;
+    width: 252px;
+    padding-top: 50px;
+  }
+  .video-section {
+    background-size: 480px;
+    height: 362px;
+  }
+  .video-btn {
+    font-size: 10px;
+    padding: 17px 10px;
+    border-radius: 15px;
+    width: 123px;
+    margin-left: 155px;
+  }
+
+  .circles {
+    display: block;
+    padding-top: 20px;
+    margin-left: 120px;
+  }
+  .circles__gray-circle,
+  .circles__yellow-circle {
+    position: static;
+    height: 200px;
+    width: 200px;
+  }
+  .circles__paragraph {
+    font-size: 15px;
+    width: 185px;
+    padding-left: 20px;
+    padding-top: 8px;
+  }
+  .circles__img {
+    width: 40px;
+    margin-left: 79px;
+    padding-top: 20px;
+  }
+  .how-to-make-money-section-div__paragraph {
+    font-size: 12px;
+    width: 375px;
+  }
+
+  .footer-section {
+    height: 100px;
+  }
+  .img-footer {
+    width: 60px;
+  }
+  .footer-list__paragraph {
+    font-size: 10px;
+    margin-left: 49px;
+  }
+  .footer-list__paragraph-second {
+    font-size: 10px;
+  }
+  .footer-div {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 375px){
+.img-header{
+  margin-left: 10px;
+}
+.header-nav-list{
+  margin-right: 10px;
+}
+.explain-text-div__paragraph{
+  margin-left: 10px;
+}
+.explain-list{
+ margin-left: 70px;
+}
+.duginets-pendulum-paragraph{
+   margin-left: 10px;
+}
+.video-btn{
+  margin-left: 125px;
+}
+.circles{
+  padding-left: 88px;
 }
 }
