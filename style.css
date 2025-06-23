@@ -341,12 +341,14 @@ header {
   .description-list__paragraph,
   .description-list__paragraph-help {
     font-size: 15px;
+    padding-top: 10px;
   }
-
+  .welcome-paragraph {
+    padding-top: 3px;
+  }
   .description-list {
     margin-left: 15px;
   }
-
 
   .explain-text-div__paragraph {
     font-size: 15px;
@@ -502,12 +504,16 @@ header {
 
   .description-list__paragraph,
   .description-list__paragraph-help {
-    font-size: 12px;
-    padding-top: 13px;
+    font-size: 11px;
+    padding-top: 8px;
   }
-
+  .welcome-paragraph {
+    padding-top: 3px;
+    width: 150px;
+  }
   .description-list {
-    padding-top: 25px;
+    padding-top: 10px;
+    padding-left: 2px;
   }
 
   .kwt-group-header-img {
