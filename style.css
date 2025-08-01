@@ -350,6 +350,9 @@ header {
    font-family: "Roboto Flex", sans-serif;
 
 }
+.color-span{
+  color: white;
+}
 
 @media (max-width: 1024px) {
   .container {
