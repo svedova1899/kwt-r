@@ -50,7 +50,7 @@ header {
    gap: 15px;
 }
 .langBtn{
-  width: 50px;
+  width: 70px;
   height: 30px;
   background-color: #ffc600;
   border: none;
@@ -568,7 +568,7 @@ width: 500px;
     gap: 0;
   }
   .langBtn{
-    width: 40px;
+    width: 65px;
     height: 20px;
   }
   .description-section__img {

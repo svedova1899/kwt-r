@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 })
 
 const translations = {
-  uk: {
+  Ukrainian: {
 
     phone1: "0995535030",
     phone2: "0675241200",
@@ -98,7 +98,7 @@ const translations = {
     footer_address: "м. Дніпро, вул. Академіка Белелюбского 70 <br>+38 067 524 12 00"
   },
 
-  en: {
+ English: {
  
     phone1: "0995535030",
     phone2: "0675241200",
@@ -182,7 +182,7 @@ const translations = {
   }
 };
 
-let currentLang = "uk";
+let currentLang = "Ukrainian";
 
 const langBtn = document.getElementById("langBtn");
 
@@ -196,11 +196,11 @@ function applyLanguage(lang) {
   });
 
   document.documentElement.lang = lang;
-  langBtn.textContent = lang === "uk" ? "EN" : "UA";
+  langBtn.textContent = lang === "Ukrainian" ? "English" : "Ukrainian";
 }
 
 langBtn.addEventListener("click", () => {
-  currentLang = currentLang === "uk" ? "en" : "uk";
+  currentLang = currentLang === "Ukrainian" ? "English" : "Ukrainian";
   applyLanguage(currentLang);
 });
 
