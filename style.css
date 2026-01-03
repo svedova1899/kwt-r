@@ -44,6 +44,19 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+.header-nav{
+  display: flex;
+  align-items: center;
+   gap: 15px;
+}
+.langBtn{
+  width: 50px;
+  height: 30px;
+  background-color: #ffc600;
+  border: none;
+  border-radius: 4px;
+  color: #424242;
+}
 
 .nav-div {
   position: relative;
@@ -554,7 +567,10 @@ width: 500px;
   .nav-div {
     gap: 0;
   }
-
+  .langBtn{
+    width: 40px;
+    height: 20px;
+  }
   .description-section__img {
     width: 240px;
   }
