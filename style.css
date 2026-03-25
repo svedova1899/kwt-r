@@ -216,6 +216,7 @@ header {
 
 .duginets-pendulum {
   background-image: url("src/img/png/orange-bg.png");
+    background-size: cover;
   background-repeat: no-repeat;
   height: 937px;
 }
@@ -230,8 +231,10 @@ header {
 }
 
 .video-section {
-  background-image: url("src/img/png/photo-duginets-pendulum.png");
+  background-image: url("src/img/png/photo-duginets-pendulum.jpg");
+  /* background-image: url("src/img/png/photo-duginets-pendulum-old.png"); */
   background-repeat: no-repeat;
+  background-size: cover;
   height: 1200px;
   display: flex;
   align-items: center;
@@ -331,7 +334,6 @@ header {
   font-weight: 400;
   color: #000000;
   padding-top: 22px;
-  margin-left: 89px;
 }
 .modal {
   display: none;

@@ -32,7 +32,7 @@ const translations = {
     phone1: "0995535030",
     phone2: "0675241200",
     company_info: "КВТ ГРУП ТОВ, ЄДРПОУ/ДРФО 45149954 МФО 305299,<br>№UA583052990000026007050590339",
-    address: "м. Дніпро, вул. Академіка Белелюбского 70 +38 067 524 12 00",
+    address: "м. Дніпро, вул. Мандриківська 44а +38 067 524 12 00",
 
     main_title: "Маятник<br>Дугінця",
     description1: "Запатентована машина перетворює<br>коливання маятника в електроенергію.",
@@ -95,7 +95,7 @@ const translations = {
     money_making_description: "УЯВІТЬ, як Маятник Дугінця буде не тільки економити вам від 3 до 10 гривень на одному кіловаті, а ще й заробляти вам гроші за допомогою майнінгу біткоіна. Вам не потрібно розумітись на майнінгу. Ми встановимо все необхідне обладнання та підключимо. Коли електроенергія ,видобута за допомогою маятника, буде не потрібна на вашому виробництві після закінчення робочого дня або на потреби дому, вона буде використовуватись для вашого заробітку на майнінгу криптовалют до початку наступного робочого дня. І так 24 години на добу. Зароблені гроші будуть виводитись на вашу банківську карту. Щоб все було так просто для вас, нам довелося створити свій науково дослідницький інститут з виробничим цехом ,інвестувати більше $200000 та 6 років наполегливої праці, провести багато дуже дорогих випробувань, витратити купу нервів, знайти потрібних фахівців, яких майже немає, навчати своїх працівників і навчатись самим , вірити в успіх навіть тоді, коли вже майже не було надії на фінансування та на знайомство з потрібними фахівцями. В цей продукт вкладені віра, гроші, праця, роки життя від першої думки у 2011 році до виготовлення продукту у 2025 році. Тепер ви розумієте весь пройдений шлях. Дякуємо.",
 
     footer_company_info: "КВТ ГРУП ТОВ, ЄДРПОУ/ДРФО 45149954 МФО 305299,<br>№ UA583052990000026007050590339",
-    footer_address: "м. Дніпро, вул. Академіка Белелюбского 70 <br>+38 067 524 12 00"
+    footer_address: "м. Дніпро, вул. Мандриківська 44а <br>+38 067 524 12 00"
   },
 
  English: {
@@ -103,7 +103,7 @@ const translations = {
     phone1: "0995535030",
     phone2: "0675241200",
     company_info: "KVT GROUP LLC, EDRPOU/DRFO 45149954 MFO 305299,<br>№UA583052990000026007050590339",
-    address: "Dnipro, Akademika Belelubskogo St. 70 +38 067 524 12 00",
+    address: "Dnipro, Mandrykivska St. 44a +38 067 524 12 00",
 
     main_title: "Duginets<br>Pendulum",
     description1: "A patented machine converts<br>pendulum oscillations into electricity.",
@@ -178,7 +178,7 @@ const translations = {
     money_making_description: "IMAGINE how the Duginets Pendulum will not only save you from 3 to 10 hryvnias per kilowatt, but also earn you money through Bitcoin mining. You don't need to understand mining. We will install all the necessary equipment and connect it. When the electricity extracted with the help of the pendulum is not needed at your production after the end of the working day or for household needs, it will be used for your earnings on cryptocurrency mining until the start of the next working day. And so 24 hours a day. Earned money will be withdrawn to your bank card. To make everything so simple for you, we had to create our own research institute with a production workshop, invest more than $200,000 and 6 years of hard work, conduct many very expensive tests, spend a lot of nerves, find the right specialists who are almost non-existent, train our employees and learn ourselves, believe in success even when there was almost no hope for funding and for meeting the right specialists. This product contains faith, money, labor, years of life from the first thought in 2011 to the manufacture of the product in 2025. Now you understand the whole path traveled. Thank you.",
 
     footer_company_info: "KVT GROUP LLC, EDRPOU/DRFO 45149954 MFO 305299,<br>№ UA583052990000026007050590339",
-    footer_address: "Dnipro, Akademika Belelubskogo St. 70 <br>+38 067 524 12 00"
+    footer_address: "Dnipro, Mandrykivska St. 44a <br>+38 067 524 12 00"
   }
 };
 
