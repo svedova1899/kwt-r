@@ -102,7 +102,7 @@ const translations = {
       "При збільшенні частоти в три рази, майже 4 рухи в секунду, модуль видає швидкість зарядки батарей 1,53 квт " +
       "на годину. Таких модулів може бути скільки завгодно відносно до ваги маятника. <br>" +
       "2. Маятник вагою 300 кг або вагою 1400 кг потребує одну і ту ж кількість квт на годину для підтримки " +
-      "коливань. Детальне пояснення принципу роботи маятника додається. Це 4,6 квт на годину. Маятник вагою " +
+      "коливань. Детальне пояснення принципу роботи маятника додається. Це 4,6 квт на годину з конкретним пневматичним циліндром. Маятник вагою " +
       "1400 кг буде видавати швидкість зарядки 100 квт на годину. Його вагу можна регулювати доданням дисків по " +
       "25 кг. Витрати на підтримання коливань маятника можуть зрости на 2 - 3 квт на годину, якщо вага маятника " +
       "буде збільшена до двох тонн. Розрахунки робились кафедрою машинобудування гірничої академії з офіційною оплатою. " +
@@ -212,7 +212,7 @@ const translations = {
 "the module provides a battery charging rate of 1.53 kW per hour. The number of such modules can be unlimited " +
 "relative to the weight of the pendulum. <br>"+
 "2. A pendulum weighing 300 kg or 1400 kg requires the same number of kW per hour to maintain oscillations. " +
-"A detailed explanation of the pendulum’s operating principle is attached. This is 4.6 kW per hour. " +
+"A detailed explanation of the pendulum’s operating principle is attached. This is 4.6 kW per hour with a specific pneumatic cylinder. " +
 "A pendulum weighing 1400 kg will provide a charging rate of 100 kW per hour. Its weight can be adjusted " +
 "by adding 25 kg discs. The energy required to maintain oscillations may increase by 2–3 kW per hour " +
 "if the pendulum’s weight is increased to two tons. " +
