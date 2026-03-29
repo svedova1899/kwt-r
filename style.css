@@ -128,7 +128,7 @@ header {
 }
 
 .description-list__paragraph {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
   padding-top: 25px;
@@ -151,7 +151,7 @@ header {
   color: #000;
 }
 .description-list__paragraph-help {
-  font-size: 25px;
+  font-size: 20px;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
   padding-top: 6px;
@@ -212,6 +212,33 @@ header {
   font-weight: 400;
   width: 1275px;
   margin-right: 35px;
+}
+
+.duginets-work-video{
+width: 100%;
+  object-fit: cover; 
+
+}
+.text-indicators-section{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 730px;
+}
+.title-indicators{
+   font-size: 30px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 600;
+    text-align: center;
+
+}
+.text-indicators{
+    font-size: 30px;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 400;
+padding-top: 40px;
+display: flex;
+align-items: center;
 }
 
 .duginets-pendulum {
@@ -300,7 +327,7 @@ header {
   font-size: 30px;
   font-family: "Roboto Flex", sans-serif;
   font-weight: 400;
-  width: 917px;
+  width: 900px;
   text-align: center;
 }
 
@@ -524,7 +551,12 @@ header {
     font-size: 20px;
     width: 639px;
   }
-
+  .text-indicators-section{
+    height: 600px;
+  }
+.text-indicators, .title-indicators{
+    font-size: 20px;
+}
   .footer-section {
     margin-top: 65px;
   }
@@ -691,7 +723,7 @@ width: 500px;
   }
 
   .circles__paragraph {
-    font-size: 15px;
+    font-size: 12px;
     width: 185px;
     padding-left: 20px;
     padding-top: 8px;
@@ -707,7 +739,12 @@ width: 500px;
     font-size: 12px;
     width: 375px;
   }
-
+  .text-indicators-section{
+    height: 400px;
+  }
+.text-indicators, .title-indicators{
+    font-size: 12px;
+}
   .footer-section {
     height: 100px;
   }
@@ -719,12 +756,12 @@ width: 500px;
 
   .footer-list__paragraph {
     font-size: 10px;
-    margin-left: 49px;
+
   }
 
   .footer-list__paragraph-second {
     font-size: 10px;
-    margin-right: 16px;
+
   }
 
   .footer-div {

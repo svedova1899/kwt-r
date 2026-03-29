@@ -38,10 +38,11 @@ const translations = {
     description1: "Запатентована машина перетворює<br>коливання маятника в електроенергію.",
     description2: "Тепер для вас 1 квт=1гривня",
     description3: "Ми допоможемо вам заробляти, а не тільки<br>економити",
+    description4: "Маятник виробляється на замовлення.<br> Потужність від 50 квт до 200 квт.",
     investors: "<span class=\"color-span\">Інвестори</span> від 4 000 грн до 40 000 000 грн<br>ласкаво просимо!",
     button_guarantees: "Фінансові гарантії для інвесторів",
 
-     modal_text: "Перед тим, як інвестувати в когось, треба довіряти тій компанії або людині. Потрібно відповісти на питання: А хто ця людина чи хто стоїть за цією компанією? Чи є в нього план Б повернення моїх грошей? <br>" +
+    modal_text: "Перед тим, як інвестувати в когось, треба довіряти тій компанії або людині. Потрібно відповісти на питання: А хто ця людина чи хто стоїть за цією компанією? Чи є в нього план Б повернення моїх грошей? <br>" +
       "Директором ТОВ КВТ ГРУП є Дугінець Ігор Євгенович. Який досвід він має, щоб довірити йому свої гроші?Як він повертатиме їх, якщо щось піде не по плану? <br>" +
       "Досвід Дугінця Ігоря Євгеновича: <br>" +
       "1. У 2001 році ,у віці 24 роки, привіз до Дніпра перший довгий лімузин на 6 персон для обслуговування весіль та різноманітних івентів. Попри всіх скептиків бізнес став успішним. " +
@@ -89,17 +90,29 @@ const translations = {
     video_button: "Як за допомогою маятника<br>заробляти",
 
     circle1: "Як за допомогою маятника не просто економити на рахунках за електроенергію, а ще і заробляти?",
-    circle2: "Все доставимо та підключимо. Також допоможемо з виводом коштів від майнінгу на вашу карту.",
-    circle3: "Додатково придбати обладнання для майнінгу криптовалют і заробляти на майнінгу, використовуючи зайву електроенергію 24/7.",
+    circle2: "Можна додатково інвестувати в содіум іонні батареї. Ми будемо давати  заряджені батареї в оренду,  а розряджені привозити до вас на зарядку. ",
+    circle3: "Ви заробляєте від 13 до 17 грн на одному кіловаті. Ваш маятник працює 24/7",
 
-    money_making_description: "УЯВІТЬ, як Маятник Дугінця буде не тільки економити вам від 3 до 10 гривень на одному кіловаті, а ще й заробляти вам гроші за допомогою майнінгу біткоіна. Вам не потрібно розумітись на майнінгу. Ми встановимо все необхідне обладнання та підключимо. Коли електроенергія ,видобута за допомогою маятника, буде не потрібна на вашому виробництві після закінчення робочого дня або на потреби дому, вона буде використовуватись для вашого заробітку на майнінгу криптовалют до початку наступного робочого дня. І так 24 години на добу. Зароблені гроші будуть виводитись на вашу банківську карту. Щоб все було так просто для вас, нам довелося створити свій науково дослідницький інститут з виробничим цехом ,інвестувати більше $200000 та 6 років наполегливої праці, провести багато дуже дорогих випробувань, витратити купу нервів, знайти потрібних фахівців, яких майже немає, навчати своїх працівників і навчатись самим , вірити в успіх навіть тоді, коли вже майже не було надії на фінансування та на знайомство з потрібними фахівцями. В цей продукт вкладені віра, гроші, праця, роки життя від першої думки у 2011 році до виготовлення продукту у 2025 році. Тепер ви розумієте весь пройдений шлях. Дякуємо.",
+    money_making_description: "Уявіть, ви придбали Маятник Дугінця. Інвестували в додаткові батареї. Далі ми підписуємо договір оренди батарей з вами і даємо в оренду ваші заряджені батареї офісам, магазинам, швидкісним зарядним станціям, торговим центрам, будь-якому бізнесу. Бо в них тариф на електроенергію від 16 до 20 грн. А ми їм даємо дешевше. Вони нічого не платять, ми встановлюємо шафи з інверторами, батареями і лічильником. Раз на тиждень міняємо розряджені батареї. А у випадку зі швидкісними станціями декілька разів на день. Щоб вам було легко заробляти з маятником Дугінця, нам довелось створити свій науково дослідницький інститут з виробничим цехом, інвестувати більше $250 000 та 7 років наполегливої праці, провести багато дорогих випробувань, витратити купу нервів, знайти потрібних фахівців, яких майже не має, навчати своїх працівників і навчатись самим, вірити в успіх тоді, коли не було надії на фінансування та на знайомство з потрібними фахівцями. В цей продукт вкладено гроші, віра, праця, роки життя від першої думки у 2011 році до виготовлення працюючої машини у 2025 році. Тепер ви розумієте весь пройдений шлях. Дякуємо.",
 
     footer_company_info: "КВТ ГРУП ТОВ, ЄДРПОУ/ДРФО 45149954 МФО 305299,<br>№ UA583052990000026007050590339",
-    footer_address: "м. Дніпро, вул. Мандриківська 44а <br>+38 067 524 12 00"
+    footer_address: "м. Дніпро, вул. Мандриківська 44а <br>+38 067 524 12 00",
+    title_indicators: "Показники випробувань:",
+    text_indicators: "1. Один модуль лінійного генератора видає 170 ватт при частоті рухів магнітів 1,3 руха в секунду. " +
+      "При збільшенні частоти в три рази, майже 4 рухи в секунду, модуль видає швидкість зарядки батарей 1,53 квт " +
+      "на годину. Таких модулів може бути скільки завгодно відносно до ваги маятника. <br>" +
+      "2. Маятник вагою 300 кг або вагою 1400 кг потребує одну і ту ж кількість квт на годину для підтримки " +
+      "коливань. Детальне пояснення принципу роботи маятника додається. Це 4,6 квт на годину. Маятник вагою " +
+      "1400 кг буде видавати швидкість зарядки 100 квт на годину. Його вагу можна регулювати доданням дисків по " +
+      "25 кг. Витрати на підтримання коливань маятника можуть зрости на 2 - 3 квт на годину, якщо вага маятника " +
+      "буде збільшена до двох тонн. Розрахунки робились кафедрою машинобудування гірничої академії з офіційною оплатою. " +
+      "Показники знімала ліцензійна компанія з обслуговування електричних мереж заправочних станцій. " +
+      "Маятник може працювати цілодобово. Окупність машини при роботі 24/7 складе менше 8 місяців, " +
+      "якщо порівнювати з ціною за 1 квт = 16 грн з пдв.",
   },
 
- English: {
- 
+  English: {
+
     phone1: "0995535030",
     phone2: "0675241200",
     company_info: "KVT GROUP LLC, EDRPOU/DRFO 45149954 MFO 305299,<br>№UA583052990000026007050590339",
@@ -109,10 +122,11 @@ const translations = {
     description1: "A patented machine converts<br>pendulum oscillations into electricity.",
     description2: "Now for you 1 kW=1 hryvnia",
     description3: "We will help you earn, not just<br>save money",
+     description4: "The pendulum is manufactured to order. <br>Power output ranges from 50 kW to 200 kW.",
     investors: "<span class=\"color-span\">Investors</span> from 4,000 UAH to 40,000,000 UAH<br>welcome!",
     button_guarantees: "Financial guarantees for investors",
 
-     modal_text: "Before investing in someone, you need to trust that company or person. " +
+    modal_text: "Before investing in someone, you need to trust that company or person. " +
       "You need to answer the question: Who is this person or who stands behind this company? Does he have a Plan B to return my money? <br>" +
       "The director of KVT GROUP LLC is Duginets Ihor Yevhenovych. " +
       "What experience does he have to entrust him with my money? How will he return it if something doesn't go according to plan? <br>" +
@@ -172,13 +186,40 @@ const translations = {
 
 
     circle1: "How to not only save on electricity bills with a pendulum, but also earn money?",
-    circle2: "We will deliver and connect everything. We will also help with the withdrawal of mining funds to your card.",
-    circle3: "Additionally purchase equipment for cryptocurrency mining and earn on mining using excess electricity 24/7.",
+    circle2: "It is also possible to additionally invest in sodium-ion batteries. We will lease out charged batteries and bring discharged ones to you for recharging.",
+    circle3: "You earn from 13 to 17 UAH per kilowatt. Your pendulum operates 24/7.",
 
-    money_making_description: "IMAGINE how the Duginets Pendulum will not only save you from 3 to 10 hryvnias per kilowatt, but also earn you money through Bitcoin mining. You don't need to understand mining. We will install all the necessary equipment and connect it. When the electricity extracted with the help of the pendulum is not needed at your production after the end of the working day or for household needs, it will be used for your earnings on cryptocurrency mining until the start of the next working day. And so 24 hours a day. Earned money will be withdrawn to your bank card. To make everything so simple for you, we had to create our own research institute with a production workshop, invest more than $200,000 and 6 years of hard work, conduct many very expensive tests, spend a lot of nerves, find the right specialists who are almost non-existent, train our employees and learn ourselves, believe in success even when there was almost no hope for funding and for meeting the right specialists. This product contains faith, money, labor, years of life from the first thought in 2011 to the manufacture of the product in 2025. Now you understand the whole path traveled. Thank you.",
+    money_making_description: "Imagine you purchased the Duginets Pendulum and invested in additional batteries. " +
+      "Then we sign a battery leasing agreement with you, and we lease your charged batteries to offices, shops, " +
+      "fast-charging stations, shopping centers, and any businesses. Their electricity tariff ranges from 16 to 20 UAH, " +
+      "while we provide cheaper energy. They pay nothing upfront; we install cabinets with inverters, batteries, " +
+      "and a meter. Once a week, we replace discharged batteries. In the case of fast-charging stations, " +
+      "this may be done several times a day. " +
+      "To make it easy for you to earn with the Duginets Pendulum, we had to create our own research institute " +
+      "with a production workshop, invest more than $250,000, and devote 7 years of hard work. " +
+      "We conducted many expensive tests, spent a lot of effort, found the necessary specialists—who are very rare—" +
+      "trained our employees and learned ourselves, and believed in success even when there was no hope for funding " +
+      "or meeting the right experts. Money, faith, labor, and years of life have been invested in this product—" +
+      "from the first idea in 2011 to the creation of a working machine in 2025. " +
+      "Now you understand the entire journey we have taken. Thank you.",
 
     footer_company_info: "KVT GROUP LLC, EDRPOU/DRFO 45149954 MFO 305299,<br>№ UA583052990000026007050590339",
-    footer_address: "Dnipro, Mandrykivska St. 44a <br>+38 067 524 12 00"
+    footer_address: "Dnipro, Mandrykivska St. 44a <br>+38 067 524 12 00",
+
+      title_indicators: "Test results:",
+    text_indicators: "1. One linear generator module produces 170 watts at a magnet movement frequency " +
+"of 1.3 strokes per second. When the frequency is increased threefold, to nearly 4 strokes per second, " +
+"the module provides a battery charging rate of 1.53 kW per hour. The number of such modules can be unlimited " +
+"relative to the weight of the pendulum. <br>"+
+"2. A pendulum weighing 300 kg or 1400 kg requires the same number of kW per hour to maintain oscillations. " +
+"A detailed explanation of the pendulum’s operating principle is attached. This is 4.6 kW per hour. " +
+"A pendulum weighing 1400 kg will provide a charging rate of 100 kW per hour. Its weight can be adjusted " +
+"by adding 25 kg discs. The energy required to maintain oscillations may increase by 2–3 kW per hour " +
+"if the pendulum’s weight is increased to two tons. " +
+"The calculations were carried out by the Department of Mechanical Engineering of the Mining Academy " +
+"with official payment. The measurements were recorded by a licensed company servicing electrical networks " +
+"of fuel stations. The pendulum can operate 24/7. The payback period of the machine, when operating 24/7, " +
+"will be less than 8 months, based on an electricity price of 1 kW = 16 UAH including VAT.",
   }
 };
 
@@ -191,7 +232,7 @@ function applyLanguage(lang) {
     const key = el.dataset.lang;
 
     if (translations[lang][key]) {
-      el.innerHTML = translations[lang][key]; 
+      el.innerHTML = translations[lang][key];
     }
   });
 
