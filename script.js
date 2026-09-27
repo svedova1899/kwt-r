@@ -197,7 +197,7 @@ const translations = {
       "and a meter. Once a week, we replace discharged batteries. In the case of fast-charging stations, " +
       "this may be done several times a day. " +
       "To make it easy for you to earn with the Duginets Pendulum, we had to create our own research institute " +
-      "with a production workshop, invest more than $250,000, and devote 7 years of hard work. " +
+      "with a production workshop, invest more than $350,000, and devote 7 years of hard work. " +
       "We conducted many expensive tests, spent a lot of effort, found the necessary specialists—who are very rare—" +
       "trained our employees and learned ourselves, and believed in success even when there was no hope for funding " +
       "or meeting the right experts. Money, faith, labor, and years of life have been invested in this product—" +
