@@ -13,9 +13,11 @@ a {
   text-decoration: none;
 }
 
-body {
+html, body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  overflow-x: hidden; 
 }
 
 [contenteditable="true"] {
@@ -223,7 +225,7 @@ width: 100%;
       display: flex;
     justify-content: center;
     align-items: center;
-    height: 730px;
+    height: 600px;
 }
 .title-indicators{
    font-size: 30px;
@@ -239,6 +241,19 @@ width: 100%;
 padding-top: 40px;
 display: flex;
 align-items: center;
+}
+.cost-section{
+  padding-bottom: 50px;
+}
+.cost-video{
+  width: 400px;
+
+}
+.cost-vid-div{
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  width: 100%;
 }
 
 .duginets-pendulum {
@@ -258,13 +273,15 @@ align-items: center;
 }
 
 .video-section {
-  background-image: url("src/img/png/photo-duginets-pendulum.jpg");
-  /* background-image: url("src/img/png/photo-duginets-pendulum-old.png"); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1200px;
-  display: flex;
-  align-items: center;
+  width: 100vw; 
+  margin: 0;
+  padding: 0;
+}
+.video-section video {
+  width: 100%;
+  height: auto; 
+  display: block; 
+  object-fit: cover;
 }
 
 .video-btn {

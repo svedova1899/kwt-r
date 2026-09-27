@@ -85,7 +85,10 @@ const translations = {
     explanation_point2: "Якщо порівняти цю систему з ,наприклад , зубчатою передачею або ланцюговою, то в них при блокуванні однієї частини механізму блокується все. Тому маятник в цій системі не реагує на можливе блокування будь якої частини всієї машини. Він буде продовжувати свої коливання поки його підштовхують, виробляючи або не виробляючи електроенергію. Тому і зусилля на підтримку коливань одне і теж, з навантаженням чи без.",
     explanation_point3: "Маятник має свій ліміт сили, яку він може передати машині для скоєння роботи. Якщо навантажити другу частину коромисла, на якому з однієї сторони маятник ,а з іншої противага, непід'йомною вагою для конкретного маятника, то робота не буде вироблятись, а маятник буде коливатись з тією ж самою амплітудою та з тим самим зусиллям, якби він підіймав вантаж с другої сторони коромисла.",
 
-    pendulum_description: "Маятник змушує коливатись противагу, яка в свою чергу змушує підіймати і опускати модулі з магнітами в лінійному генераторі та виробляти електроенергію. Лінійний генератор включає в себе закріплений статор( залізо, з намотаною на нього мідною проволокою) та рухаючийся слайдер на колесах з магнітами. Магніти, рухаючись вдовж статора виробляють електроенергію. Для необхідної потужності вихідної електроенергії додається потрібна кількість модулів, а також розраховується необхідна вага маятника та противаги, та довжина коромисла.",
+    pendulum_description: "Маятник змушує коливатися противагу, яка в свою чергу підіймає супер довгий ричаг, який в свою чергу стискає шток гідроциліндра та накопичує тиск, який обертає гідромотор. " +
+      "Гідромотор обертає вал з великою жовтою шестернею (механізм антивібрації), який в свою чергу підіймає та опускає коромисло зі слайдерами із магнітами(відео 2) з частотою в 4 рази більше ніж на першому відео. " +
+      "Магніти рухаючись вдовж статора, виробляють електроенергію. " +
+      "Для необхідної потужності вихідної електроенергії додається необхідна кількість модулів лінійних генераторів, а також розраховується потрібна вага маятника.",
 
     video_button: "Як за допомогою маятника<br>заробляти",
 
@@ -93,22 +96,17 @@ const translations = {
     circle2: "Можна додатково інвестувати в содіум іонні батареї. Ми будемо давати  заряджені батареї в оренду,  а розряджені привозити до вас на зарядку. ",
     circle3: "Ви заробляєте від 13 до 17 грн на одному кіловаті. Ваш маятник працює 24/7",
 
-    money_making_description: "Уявіть, ви придбали Маятник Дугінця. Інвестували в додаткові батареї. Далі ми підписуємо договір оренди батарей з вами і даємо в оренду ваші заряджені батареї офісам, магазинам, швидкісним зарядним станціям, торговим центрам, будь-якому бізнесу. Бо в них тариф на електроенергію від 16 до 20 грн. А ми їм даємо дешевше. Вони нічого не платять, ми встановлюємо шафи з інверторами, батареями і лічильником. Раз на тиждень міняємо розряджені батареї. А у випадку зі швидкісними станціями декілька разів на день. Щоб вам було легко заробляти з маятником Дугінця, нам довелось створити свій науково дослідницький інститут з виробничим цехом, інвестувати більше $250 000 та 7 років наполегливої праці, провести багато дорогих випробувань, витратити купу нервів, знайти потрібних фахівців, яких майже не має, навчати своїх працівників і навчатись самим, вірити в успіх тоді, коли не було надії на фінансування та на знайомство з потрібними фахівцями. В цей продукт вкладено гроші, віра, праця, роки життя від першої думки у 2011 році до виготовлення працюючої машини у 2025 році. Тепер ви розумієте весь пройдений шлях. Дякуємо.",
+    money_making_description: "Уявіть, ви придбали Маятник Дугінця. Інвестували в додаткові батареї. Далі ми підписуємо договір оренди батарей з вами і даємо в оренду ваші заряджені батареї офісам, магазинам, швидкісним зарядним станціям, торговим центрам, будь-якому бізнесу. Бо в них тариф на електроенергію від 16 до 20 грн. А ми їм даємо дешевше. Вони нічого не платять, ми встановлюємо шафи з інверторами, батареями і лічильником. Раз на тиждень міняємо розряджені батареї. А у випадку зі швидкісними станціями декілька разів на день. Щоб вам було легко заробляти з маятником Дугінця, нам довелось створити свій науково дослідницький інститут з виробничим цехом, інвестувати більше $350 000 та 7 років наполегливої праці, провести багато дорогих випробувань, витратити купу нервів, знайти потрібних фахівців, яких майже не має, навчати своїх працівників і навчатись самим, вірити в успіх тоді, коли не було надії на фінансування та на знайомство з потрібними фахівцями. В цей продукт вкладено гроші, віра, праця, роки життя від першої думки у 2011 році до виготовлення працюючої машини у 2025 році. Тепер ви розумієте весь пройдений шлях. Дякуємо.",
 
     footer_company_info: "КВТ ГРУП ТОВ, ЄДРПОУ/ДРФО 45149954 МФО 305299,<br>№ UA583052990000026007050590339",
     footer_address: "м. Дніпро, вул. Мандриківська 44а <br>+38 067 524 12 00",
     title_indicators: "Показники випробувань:",
-    text_indicators: "1. Один модуль лінійного генератора видає 170 ватт при частоті рухів магнітів 1,3 руха в секунду. " +
-      "При збільшенні частоти в три рази, майже 4 рухи в секунду, модуль видає швидкість зарядки батарей 1,53 квт " +
-      "на годину. Таких модулів може бути скільки завгодно відносно до ваги маятника. <br>" +
-      "2. Маятник вагою 300 кг або вагою 1400 кг потребує одну і ту ж кількість квт на годину для підтримки " +
-      "коливань. Детальне пояснення принципу роботи маятника додається. Це 4,6 квт на годину з конкретним пневматичним циліндром. Маятник вагою " +
-      "1400 кг буде видавати швидкість зарядки 100 квт на годину. Його вагу можна регулювати доданням дисків по " +
-      "25 кг. Витрати на підтримання коливань маятника можуть зрости на 2 - 3 квт на годину, якщо вага маятника " +
-      "буде збільшена до двох тонн. Розрахунки робились кафедрою машинобудування гірничої академії з офіційною оплатою. " +
+    text_indicators: "1. Один модуль лінійного генератора видає 170 ватт при частоті рухів магнітів 0.66 рухи в секунду, як на першому відео. При збільшенні частоти в чотири рази модуль видає швидкість зарядки батарей 2 квт на годину. Таких модулів може бути скільки завгодно відносно до ваги маятника. <br>" +
+      "2. Маятник вагою 300 кг або вагою 1200 кг потребує одну і ту ж кількість квт на годину для підтримки коливань. Детальне пояснення принципу роботи маятника додається. Це 3,6 квт на годину з конкретним пневматичним циліндром. Маятник вагою 3200 кг буде видавати швидкість зарядки 100 квт на годину. Його вагу можна регулювати доданням дисків по 25 кг. Витрати на підтримання коливань маятника можуть зрости до 12 квт на годину. " +
+      "Розрахунки робились кафедрою машинобудування гірничої академії з офіційною оплатою. " +
       "Показники знімала ліцензійна компанія з обслуговування електричних мереж заправочних станцій. " +
-      "Маятник може працювати цілодобово. Окупність машини при роботі 24/7 складе менше 8 місяців, " +
-      "якщо порівнювати з ціною за 1 квт = 16 грн з пдв.",
+      "Маятник може працювати цілодобово. " +
+      "Окупність машини при роботі 24/7 складе менше 8 місяців, якщо порівнювати з ціною за 1 квт = 16 грн з пдв.",
   },
 
   English: {
@@ -122,7 +120,7 @@ const translations = {
     description1: "A patented machine converts<br>pendulum oscillations into electricity.",
     description2: "Now for you 1 kW=1 hryvnia",
     description3: "We will help you earn, not just<br>save money",
-     description4: "The pendulum is manufactured to order. <br>Power output ranges from 50 kW to 200 kW.",
+    description4: "The pendulum is manufactured to order. <br>Power output ranges from 50 kW to 200 kW.",
     investors: "<span class=\"color-span\">Investors</span> from 4,000 UAH to 40,000,000 UAH<br>welcome!",
     button_guarantees: "Financial guarantees for investors",
 
@@ -179,7 +177,10 @@ const translations = {
     explanation_point3: "The pendulum has its own limit of force that it can transfer to the machine to perform work. If you load the second part of the rocker, on which there is a pendulum on one side and a counterweight on the other, with an unbearable weight for a specific pendulum, then work will not be produced, and the pendulum will oscillate with the same amplitude and with the same effort as if it were lifting a load from the other side of the rocker.",
 
 
-    pendulum_description: "The pendulum makes the counterweight oscillate, which in turn makes the modules with magnets in the linear generator rise and fall and produce electricity. The linear generator includes a fixed stator (iron, with copper wire wound around it) and a moving slider on wheels with magnets. The magnets, moving along the stator, produce electricity. For the required output power of electricity, the necessary number of modules is added, and the necessary weight of the pendulum and counterweight, as well as the length of the rocker, are calculated.",
+    pendulum_description: "The pendulum causes the counterweight to oscillate, which in turn lifts a super long lever, which in turn compresses the hydraulic cylinder rod and accumulates pressure that rotates the hydraulic motor. " +
+      "The hydraulic motor rotates a shaft with a large yellow gear (anti-vibration mechanism), which in turn raises and lowers the rocker arm with sliders and magnets (video 2) at a frequency 4 times higher than in the first video. " +
+      "The magnets, moving along the stator, generate electricity. " +
+      "To achieve the required output electrical power, the necessary number of linear generator modules is added, and the required weight of the pendulum is calculated.",
 
 
     video_button: "How to earn with<br>a pendulum",
@@ -206,20 +207,13 @@ const translations = {
     footer_company_info: "KVT GROUP LLC, EDRPOU/DRFO 45149954 MFO 305299,<br>№ UA583052990000026007050590339",
     footer_address: "Dnipro, Mandrykivska St. 44a <br>+38 067 524 12 00",
 
-      title_indicators: "Test results:",
-    text_indicators: "1. One linear generator module produces 170 watts at a magnet movement frequency " +
-"of 1.3 strokes per second. When the frequency is increased threefold, to nearly 4 strokes per second, " +
-"the module provides a battery charging rate of 1.53 kW per hour. The number of such modules can be unlimited " +
-"relative to the weight of the pendulum. <br>"+
-"2. A pendulum weighing 300 kg or 1400 kg requires the same number of kW per hour to maintain oscillations. " +
-"A detailed explanation of the pendulum’s operating principle is attached. This is 4.6 kW per hour with a specific pneumatic cylinder. " +
-"A pendulum weighing 1400 kg will provide a charging rate of 100 kW per hour. Its weight can be adjusted " +
-"by adding 25 kg discs. The energy required to maintain oscillations may increase by 2–3 kW per hour " +
-"if the pendulum’s weight is increased to two tons. " +
-"The calculations were carried out by the Department of Mechanical Engineering of the Mining Academy " +
-"with official payment. The measurements were recorded by a licensed company servicing electrical networks " +
-"of fuel stations. The pendulum can operate 24/7. The payback period of the machine, when operating 24/7, " +
-"will be less than 8 months, based on an electricity price of 1 kW = 16 UAH including VAT.",
+    title_indicators: "Test results:",
+    text_indicators: "1. One linear generator module outputs 170 watts at a magnet movement frequency of 0.66 movements per second, as in the first video. When the frequency is increased fourfold, the module outputs a battery charging rate of 2 kW per hour. There can be as many such modules as needed relative to the weight of the pendulum. <br>" +
+      "2. A pendulum weighing 300 kg or 1200 kg requires the same amount of kWh per hour to maintain oscillations. A detailed explanation of the pendulum's operating principle is attached. This is 3.6 kW per hour with a specific pneumatic cylinder. A pendulum weighing 3200 kg will output a charging rate of 100 kW per hour. Its weight can be adjusted by adding 25 kg disks. The costs of maintaining the pendulum's oscillations may increase up to 12 kW per hour. " +
+      "The calculations were made by the Department of Mechanical Engineering of the Mining Academy with official payment. " +
+      "The metrics were recorded by a licensed company for the maintenance of electric grids at gas stations. " +
+      "The pendulum can operate around the clock. " +
+      "The payback period of the machine operating 24/7 will be less than 8 months, compared to the price of 1 kW = 16 UAH including VAT.",
   }
 };
 
